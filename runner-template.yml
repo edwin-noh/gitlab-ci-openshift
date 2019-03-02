@@ -32,10 +32,10 @@ objects:
       app: ${APPLICATION_NAME}
   spec:
     tags:
-    - name: 9.0.2
+    - name: latest
       from:
         kind: DockerImage
-        name: gitlab/gitlab-runner:alpine-v9.0.2
+        name: gitlab/gitlab-runner:latest
 - kind: ConfigMap
   apiVersion: v1
   metadata:
