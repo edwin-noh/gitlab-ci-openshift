@@ -86,7 +86,7 @@ objects:
           - gitlab-runner
         from:
           kind: ImageStreamTag
-          name: ${APPLICATION_NAME}:9.0.2
+          name: ${APPLICATION_NAME}:latest
     replicas: 1
     test: false
     selector:
