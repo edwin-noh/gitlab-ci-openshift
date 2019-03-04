@@ -8,4 +8,4 @@ https://gitlab.com/gitlab-org/omnibus-gitlab/blob/f04b5c4443b3a98011577cdd7c9de7
 
 # Setup gitlab runner
 
-oc apply -f https://gitlab.com/gitlab-org/omnibus-gitlab/raw/f04b5c4443b3a98011577cdd7c9de766a287531e/docker/openshift/runner-template.yml
+oc apply -f https://raw.githubusercontent.com/edwin-noh/gitlab-ci-openshift/master/runner-template.yml
